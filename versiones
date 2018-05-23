@@ -1,0 +1,11 @@
+#10.5: En esta versión se introdujeron las funcionalidades básicas, exportando a una etiqueta llamada textarea de html el contenido que debe tener la firma.
+
+#11.5: Se cambió el textarea por una etiqueta div para poder utilizar el apartado gráfico de Bootstrap de forma correcta. Se modificó la funcionalidad para hacerla más óptima, además del apartado gráfico.
+
+#13.5: Se optimizó el código, se mejoró un poco el front-end y ya se puede generar la firma. Para copiarla solo hace falta seleccionar la firma luego de presionar el botón Generar y pegarla en la configuración de firmas de Gmail.
+
+#14.5: Se solucionaron detalles visuales y se agregaron las características telefónicas de los distintos centros de operaciones.
+
+#17.5: Agregado de script con JQuery para apartado gráfico, solución al desalineado gráfico de los íconos. Falta mejorar Visual para que quede acorde al diseño de marca. El diseño ya se pasó completamente a “responsive design”.
+
+#18.5: Agregados aspectos generales que hacen al front-end, con respecto al back-end se agrega la opción para poder elegir oficina. Se está analizando la factibilidad de que el usuario no ingrese la característica porque, si bien Arbusta tiene oficinas en Rosario, Buenos Aires y Medellín, no todos lxs Arbusters tienen características telefónicas de los lugares en cuestión. Revisiones menores en nombres de Puestos: por ejemplo “Coordinadra de Tecnología”; “Coordinador Adminstrativo”.
