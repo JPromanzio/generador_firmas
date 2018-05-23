@@ -9,3 +9,5 @@
 #17.5: Agregado de script con JQuery para apartado gráfico, solución al desalineado gráfico de los íconos. Falta mejorar Visual para que quede acorde al diseño de marca. El diseño ya se pasó completamente a “responsive design”.
 
 #18.5: Agregados aspectos generales que hacen al front-end, con respecto al back-end se agrega la opción para poder elegir oficina. Se está analizando la factibilidad de que el usuario no ingrese la característica porque, si bien Arbusta tiene oficinas en Rosario, Buenos Aires y Medellín, no todos lxs Arbusters tienen características telefónicas de los lugares en cuestión. Revisiones menores en nombres de Puestos: por ejemplo “Coordinadra de Tecnología”; “Coordinador Adminstrativo”.
+
+#23.5: Se agregó un slide de imágenes en el apartado visual. Faltan las imágenes, tamaño recomendado 1360x306.
