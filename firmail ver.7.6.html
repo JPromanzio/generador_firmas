@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Firma Arbusta</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="./firmail.js"></script>
+
+	 <script>
+		$(document).ready(function(){
+    	$('[data-toggle="tooltip"]').tooltip();   
+		});
+	</script>
+
+</head>
+<body>
+
+	<!--<div class="jumbotron text-center" style="background-color: rgb(255,0,255);">-->
+		<div id="slide" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#slide" data-slide-to="0" class="active"></li>
+				<li data-target="#slide" data-slide-to="1"></li>
+				<li data-target="#slide" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="img-fluid" src="./img/img.jpg" alt="Arbusta">
+				</div>
+			
+			<div class="carousel-item">
+				<img class="img-fluid" src="./img/img.jpg">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid" src="./img/img.jpg" alt="Arbusta">
+			</div>
+			</div>
+
+
+			<a class="carousel-control-prev" href="#slide" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a class="carousel-control-next" href="#slide" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	<!--</div>-->
+
+		<div class="form-group col-md-6 col-sm-10 col-xs-12">
+			<div class="form-control" style="margin-top: 10px">
+				<div class="form-group">
+					<input class="form-control" data-toggle="tooltip" title="Ingresa tu nombre y apellido" type="text" name="nombre" id="nombre" placeholder="Nombre">
+				</div>
+
+				<div class="form-group" data-toggle="tooltip" title="Seleccionar oficina">
+					<select title="Bs.As/Rosario/Medellín" id="loc" class="form-control">
+						<option value="Seleccionar">Seleccionar</option>
+						<option value="R">Rosario</option>
+						<option value="BA">Buenos Aires</option>
+						<option value="CM">Medellín</option>
+					</select>
+				</div>
+
+				<div class="form-group" data-toggle="tooltip" title="Selecciona tu característica telefónica">
+					<select title="Bs.As/Rosario/Medellín" id="car" class="form-control">
+						<option value="Seleccionar">Seleccionar</option>
+						<option value="R">Rosario</option>
+						<option value="BA">Buenos Aires</option>
+						<option value="CM">Medellín</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<input class="form-control" type="text" name="num_cel" id="num_cel" placeholder="Celular">
+				</div>
+
+				<div class="form-group">
+					</i><input class="form-control" type="text" name="mail" id="mail" placeholder="Mail @arbusta.net" data-toggle="tooltip" title="Ingresa tu mail. OJO! no hace falta ingresar @arbusta.net">
+				</div>
+
+
+				<div class="form-group">
+					<select id="puesto" class="form-control" data-toggle="tooltip" title="Selecciona tu puesto">
+						<option value="Seleccionar">Seleccionar</option>
+						<option value="Directorio">Directorio</option>
+						<option value="Director General">Director General</option>
+						<option value="Directora de Capital Humano">Directora de Capital Humano</option>
+						<option value="Directora de Finanzas">Directora de Finanzas</option>
+						<option value="Coodinador Administrativo">Coordinador Administrativo</option>
+						<option value="Coordinador de Operaciones">Coordinador de Operaciones</option>
+						<option value="Coordinador de Plataformas">Coordinador de Plataformas</option>
+						<option value="Coordinadora de Tecnología">Coordinadora de Tecnología</option>
+						<option value="Project Manager">Project Manager</option>
+						<option value="Analista de Administración">Analista de Administración</option>
+						<option value="Analista de Capital Humano">Analista de Capital Humano</option>
+						<option value="Analista de Tecnología">Analista de Tecnología</option>
+						<option value="Líder Técnico">Líder Técnico</option>
+						<option value="Analista QA Tester">Analista QA Tester</option>
+						<option value="Analista de Datos">Data Management</option>
+					</select>
+				</div>
+					
+					<div class="form-group"><button class="btn btn-outline-success" name="generar" id="generar" onclick="ejecutar();">Generar</button></div>
+					<div id="firma"></div>
+					<!--<script type="text/javascript" src="./firmail.js"></script>-->
+			</div>
+		</div>
+
+		<footer class="container-fluid py-3">
+			<font size="1"><p> <img src='https://pbs.twimg.com/profile_images/834857735992799232/8MGrZOv9_400x400.jpg' width="15" height="15">Desarrollado por Arbusters para Arbusta</p></font>
+		</footer>
+
+</body>
+</html>
+</html>
