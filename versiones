@@ -10,4 +10,4 @@
 
 #18.5: Agregados aspectos generales que hacen al front-end, con respecto al back-end se agrega la opción para poder elegir oficina. Se está analizando la factibilidad de que el usuario no ingrese la característica porque, si bien Arbusta tiene oficinas en Rosario, Buenos Aires y Medellín, no todos lxs Arbusters tienen características telefónicas de los lugares en cuestión. Revisiones menores en nombres de Puestos: por ejemplo “Coordinadra de Tecnología”; “Coordinador Adminstrativo”.
 
-#7.6: Cambio total de lógica para sea más entendible por todx aquel que quiera analizar el código, también se agregaron comentarios.
+#7.6: Cambio total de lógica para sea más entendible por todx aquel que quiera analizar el código, también se agregaron comentarios e ícono de Instagram.
